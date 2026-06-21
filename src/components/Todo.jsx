@@ -1,8 +1,12 @@
 import { memo } from "react";
-import TodoList from "./TodoList";
+import SignUpFrom from "./SignUpFrom";
 
 const Todo = () => {
-  return <TodoList />;
+  return (
+    <>
+      <SignUpFrom />
+    </>
+  );
 };
 
 export default memo(Todo);
